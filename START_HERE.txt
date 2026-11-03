@@ -1,0 +1,19 @@
+MATHLAB — START HERE
+
+1. Install Node.js 18 or newer (Node.js 20 LTS is also suitable).
+2. Extract this folder.
+3. Open the extracted mathlab-vite-project folder in VS Code.
+4. Open Terminal > New Terminal.
+5. Run: npm install
+6. Run: npm run dev
+7. Open the local address printed by Vite (normally http://localhost:5173).
+
+To check a production build:
+  npm run build
+  npm run preview
+
+Notes:
+- Keep the folder structure unchanged: App.tsx, main.tsx and index.css belong in src/.
+- Student progress is stored in browser localStorage on that device/browser.
+- This is a web app, not yet a native Android/iOS/Windows application.
+- The README's original checklist is a test plan, not a claim that this reconstructed copy has been independently tested.
